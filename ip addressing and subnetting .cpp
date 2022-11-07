@@ -26,51 +26,51 @@ int main()
     cout<<bp1<<"."<<bp2<<"."<<bp3<<"."<<bp4<<endl;
     
     string ip_class;
-    if (part1>=0 && part1<=127);
+    if (part1>=0 && part1<=127)
     {
         ip_class="A";
     }
-    if (part1>=128 && part1<=191);
+    if (part1>=128 && part1<=191)
     {
         ip_class="B";
     }
-    if (part1>=192 && part1<=223);
+    if (part1>=192 && part1<=223)
     {
         ip_class="C";
     }
-    if (part1>=224 && part1<=239);
+    if (part1>=224 && part1<=239)
     {
         ip_class="D";
     }
-    if (part1>=240 && part1<=255);
+    if (part1>=240 && part1<=255)
     {
         ip_class="E";
     }
     
     int sn1,sn2,sn3,sn4;
     
-    if (ip_class=="A");
+    if (ip_class=="A")
     {
         sn1=11111111;
         sn2=00000000;
         sn3=00000000;
         sn4=00000000;
     }
-    if (ip_class=="B");
+    if (ip_class=="B")
     {
         sn1=11111111;
         sn2=11111111;
         sn3=00000000;
         sn4=00000000;
     }
-    if (ip_class=="C");
+    if (ip_class=="C")
     {
         sn1=11111111;
         sn2=11111111;
         sn3=11111111;
         sn4=00000000;
     }
-    if (ip_class=="D");
+    if (ip_class=="D")
     {
         sn1=11111111;
         sn2=11111111;
